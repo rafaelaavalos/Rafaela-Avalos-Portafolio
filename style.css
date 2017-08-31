@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.04);
+    margin: 0;
+}
+
+hr {
+    fill: solid;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.logo {
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#subtitulo {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.wrapper{  
+    float: left;
+    position: relative;
+}  
+div.description{  
+    position: absolute;  
+    bottom: 0px;
+    left: 0px;  
+    width: 100%; 
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-size: 20px;  
+    opacity: 0.68; 
+    filter: alpha(opacity=60);
+}  
+p.description_content{  
+    padding:10px;  
+    margin:0px;  
+}  
+
+#footerTextOne {
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#footerTextTwo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+
+.filter-button
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filter-button:hover
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #000000;
+
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+    font-weight: bold;
+}
+.btn-default:active, .btn-default.active {
+    background-image: none;
+    font-weight: bold;
+}
+.filter-button.active, .filter-button:active {
+    background-image: none;
+    font-weight: bold;
+}
+.sepemprend {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
